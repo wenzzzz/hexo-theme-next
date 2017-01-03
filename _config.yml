@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Wen Zhao, Android"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -37,11 +37,12 @@ seo: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
   archives: /archives
-  tags: /tags
   #sitemap: /sitemap.xml
+  # tags: /tags
+  # schedule: /schedule
+  about: /about
   #commonweal: /404.html
 
 
@@ -70,9 +71,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -173,8 +174,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -269,7 +270,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: wen-blog
 
 # Hypercomments
 #hypercomments_id:
@@ -298,7 +299,7 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-85985372-1
 
 # CNZZ count
 #cnzz_siteid:
@@ -339,9 +340,9 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: 2f91Nw2Rt3Bk5fpSN6hsSXtw-gzGzoHsz
+  app_key: FeyhzTJX8MzP8PFjcg5vuJuJ
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
